@@ -1,20 +1,56 @@
-p {
-    text-align: justify;
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    color: blueviolet;
+    color: #333;
     text-align: center;
+    margin-top: 20px;
 }
 
 h2 {
-    color: blue;
-    text-align: center;
+    color: #444;
+    margin-bottom: 10px;
 }
 
-img {
-    width: 1000px;
+main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
     height: auto;
+    border-radius: 5px;
+}
+
+article a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article time {
+    font-style: italic;
+    color: #666;
+}
+
+article p {
     text-align: justify;
 }
